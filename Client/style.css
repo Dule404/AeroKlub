@@ -1,0 +1,496 @@
+html, body
+{
+    margin: 0;
+}
+
+.DugmeP
+{
+    margin-top: 30%;
+    background-color: rgba(172, 255, 47, 0.157); 
+    width: 50%;
+    height: 100%;
+    font-size: 30px;
+    border: rgb(172, 255, 47), 0px;
+    color: black; 
+}
+
+.Naslov
+{
+    background-image: url("../img/20210819_133913.jpg");
+    background-size: cover;
+    height: 98%;
+    text-align: center;
+    font-size: 100px;;
+    margin-left: 15%;
+    margin-right: 15%;
+
+}
+
+.divHome{
+    height: 2%;
+    text-align: right;
+}
+
+.home{
+    margin-right: 15%;
+    height: 17px;
+    width: 60px;
+    background-color: transparent;
+    background-image: url("../img/home.png");
+    background-size: cover;
+    border: transparent;
+    text-align: right;
+}
+
+.Pocetni
+{
+    margin-left: 2%;
+    margin-right: 2%;
+    height: 25%;
+    background-color: transparent;
+    text-align: center;
+}
+
+.divLogovanje, .divClan, .DivOtkaziAktivnost, .DivRezAkt, .DivIzbrisi
+{
+    padding-top: 5%;
+    margin-left: 15%;
+    margin-right: 15%;
+    height: 87%;
+    text-align: center;
+    font-size: 40pt;
+}
+
+.DivDodaj1{
+    margin-left: 15%;
+    margin-right: 15%;
+    height: 98%;
+    text-align: center;
+    font-size: 40pt;
+}
+
+.divLogovanje, .divClan
+{
+    background-image: url("../img/20210819_133913.jpg");
+    background-size: cover;
+}
+
+.NaslovAktivnost
+{
+    font-size: 60pt;
+    margin-bottom: 2%;
+}
+
+.DivRezervisi
+{
+    font-size: 30pt;
+    text-align: right;
+}
+
+.textRezervisi
+{
+    font-size: 20pt;
+    margin-right: 30%;
+    background-color: rgba(95, 158, 160, 0.274);
+}
+
+.imeRez
+{
+    background-color: rgba(95, 158, 160, 0.596);
+}
+
+.textRezervisi1
+{
+    width: 6cm;
+    font-size: 20pt;
+    margin-right: 30%;
+    background-color: rgba(95, 158, 160, 0.274);
+}
+
+.labelarezervisi
+{
+    margin-right: 5%;
+    background-color: rgba(95, 158, 160, 0.596);
+}
+
+.labelarezervisi1
+{
+    margin-right: 13%;
+    background-color: rgba(95, 158, 160, 0.596);
+}
+
+.DivRezervisiAvion
+{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    font-size: 30pt;
+    text-align: center;
+}
+
+.DivOption
+{
+    margin-top: 1%;
+    font-size: 25pt;
+    text-align: center;
+}
+
+.imeRez
+{
+    margin-left: 0,5%;
+    margin-right: 2%;
+}
+
+.DugmeRezervisi
+{
+    margin-top: 6%;
+    height: 3cm;
+    width: 10cm;
+    font-size: 20pt;
+    background-color: rgba(172, 255, 47, 0.157); 
+}
+
+.pasText
+{
+    font-size: 15pt;
+}
+
+.DivDugme
+{
+    margin-top: 5%;
+}
+
+.DivLabela
+{
+    margin-top: 10%;
+}
+
+.Dugme
+{
+    margin-top: 2%;
+    height: 3cm;
+    width: 10cm;
+    font-size: 20pt;
+    background-color: rgba(172, 255, 47, 0.157); 
+}
+
+.DugmeOtkazi
+{
+    margin-top: 18%;
+    height: 3cm;
+    width: 10cm;
+    font-size: 20pt;
+    background-color: rgba(172, 255, 47, 0.157); 
+}
+
+.DugmeDodaj
+{
+    text-align: center;
+    margin-top: 7%;
+    height: 3cm;
+    width: 10cm;
+    font-size: 20pt;
+    background-color: rgba(172, 255, 47, 0.157); 
+}
+
+.DugmeAdmin1
+{
+    font-size: 20pt;
+    height: 100%;
+    width: 33%;
+    background-image:url('../img/20211018_145258.jpg');
+    background-size: cover;
+    color: wheat;
+}
+
+.DugmeAdmin9
+{
+    font-size: 20pt;
+    height: 100%;
+    width: 34%;
+    background-image:url('../img/IMG_20190629_141014_958.jpg');
+    background-size: cover;
+    color: wheat;
+}
+
+.DugmeAdmin3
+{
+    font-size: 20pt;
+    height: 100%;
+    width: 33%;
+    background-image:url('../img/IzbrisiClana.png');
+    background-size: cover;
+    color: wheat;
+}
+
+.DugmeAdmin4
+{
+    font-size: 20pt;
+    height: 100%;
+    width: 50%;
+    background-image:url('../img/Dodajpadobran.jpg');
+    background-size: cover;
+    color: wheat;
+}
+
+.DugmeAdmin5
+{
+    font-size: 20pt;
+    height: 100%;
+    width: 50%;
+    background-image:url('../img/IzbrisiPadobran.jpg');
+    background-size: cover;
+    color: wheat;
+}
+
+.DugmeAdmin6
+{
+    font-size: 20pt;
+    height: 100%;
+    width: 50%;
+    background-image:url('../img/DdoajAvion.jpg');
+    background-size: cover;
+    color: wheat;
+}
+
+.DugmeAdmin7
+{
+    font-size: 20pt;
+    height: 100%;
+    width: 50%;
+    background-image:url('../img/IzbrisiAvion.jpg');
+    background-size: cover;
+    color: wheat;
+    
+}
+
+.DugmeAdmin2
+{
+    font-size: 20pt;
+    height: 100%;
+    width: 100%;
+    background-image:url('../img/mnogoDobraSLika.jpg');
+    background-size: cover;
+    color: wheat;
+}
+
+.DugmeClan
+{
+    font-size: 30pt;
+    margin-top: 5%;
+    text-align: center;
+    height: 30%;
+    width: 48%;
+    background-color: rgba(172, 255, 47, 0.157); 
+}
+
+.Glavni
+{
+    background-image:url('../img/blur.jpg');
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+
+.DivAdmin
+{
+    margin-left: 2%;
+    margin-right: 2%;
+    height: 20%;
+    text-align: center;
+}
+
+.DivAdminp
+{
+    margin-top: 3%;
+    margin-left: 2%;
+    margin-right: 2%;
+    height: 20%;
+    text-align: center;
+}
+
+.DivAdmin2
+{
+    margin-left: 2%;
+    margin-right: 2%;
+    height: 20%;
+    text-align: center;
+}
+
+.divAdmin
+{
+    text-align: center;
+    margin-left: 15%;
+    margin-right: 15%;
+    background-image: url("../img/20210819_133913.jpg");
+    background-size: cover;
+    height: 98vh;
+}
+
+.divAdminnaslov
+{
+    font-size: 60pt;
+    text-align: center;
+    margin-left: 15%;
+    margin-right: 15%;
+    height: 98vh;
+}
+
+.text
+{
+    font-size: 20pt;
+    background-color: rgba(95, 158, 160, 0.513);
+}
+
+.textp
+{
+    font-size: 80pt;
+    background-color: rgba(95, 158, 160, 0.513);
+}
+
+.textdodaj
+{
+    font-size: 20pt;
+    margin-right: 20%;
+    background-color: rgba(95, 158, 160, 0.513);
+}
+
+.textdodajdb
+{
+    font-size: 20pt;
+    margin-right: 20%;
+    width: 4cm;
+    background-color: rgba(95, 158, 160, 0.513);
+}
+
+.labele
+{
+    margin-right: 10%;
+}
+
+.labeledb
+{
+    margin-right: 26%;
+}
+
+.DivDodaj
+{
+    padding-top: 1%;
+    text-align: right;
+}
+
+.DivDodajp
+{
+    margin-top: 10%;
+    padding-top: 1%;
+    text-align: right;
+}
+
+.DivLabela, .DivDugme
+{
+    text-align: center;
+}
+
+.idpolje
+{
+    margin-left: 5%;
+    font-size: 20pt;
+    background-color: rgba(95, 158, 160, 0.274);
+}
+
+.logpolje
+{
+    margin-top: 10%;
+    font-size: 30pt;
+    background-color: rgba(95, 158, 160, 0.513);
+}
+
+.divNaslov
+{
+   padding-top: 10%;
+   font-size: 80pt;
+}
+
+.divNaslovlog
+{
+   padding-top: 17%;
+}
+
+
+.naslov
+{
+    font-size: 60pt;
+    text-align: center;
+}
+
+.naslovDodaj
+{
+    margin-top: 10%;
+    margin-bottom: 10%;
+    font-size: 60pt;
+    text-align: center;
+}
+
+.DivAK
+{
+    overflow: scroll;
+    height: inherit;
+    text-align: center;
+}
+
+.naslova
+{
+    font-size: 50pt;
+    margin-right: 15%;
+}
+
+.naslovc
+{
+    margin-top: 5%;
+    font-size: 50pt;
+    margin-right: 15%;
+}
+
+.naslovp
+{
+    font-size: 50pt;
+    margin-right: 15%;
+}
+
+.DivPrikaz
+{
+    margin-top: 4%;
+}
+
+.tbClan{
+    margin-left: 34%;
+    margin-bottom: 4%;
+    border: solid black;
+}
+
+.tbAktivnost{
+    margin-left: 26%;
+    margin-bottom: 4%;
+    border: solid black;
+}
+
+.tbPadobran{
+    margin-left: 42%;
+    margin-bottom: 4%;
+    border: solid black;
+}
+
+.tbAvion{
+    margin-left: 43%;
+    margin-bottom: 4%;
+    border: solid black;
+}
+
+
+tr, th, td
+{
+    border: 1px solid black;
+    font-size: 23pt;
+    background-color: rgba(95, 158, 160, 0.274);
+}
+
